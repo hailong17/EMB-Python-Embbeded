@@ -7,7 +7,7 @@ class UARTGUI:
     def __init__(self, master):
         self.master = master
         self.master.title("UART Console Tool")
-        self.master.geometry("400x300")
+        self.master.geometry("500x500")
 
         # Thêm nút tự động phát hiện cổng UART
         self.auto_detect_button = tk.Button(self.master, text="Auto Detect Port", command=self.auto_detect_uart)
