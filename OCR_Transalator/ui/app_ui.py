@@ -54,9 +54,19 @@ class OCRTranslatorUI:
             self._display_text(self.text)
 
     def _on_translate(self, lang):
-        if self.text:
-            translated = self.translator.translate(self.text, lang)
-            self._display_text(translated)
+        text_to_translate = self.textbox.get("1.0", END).strip()
+        print("[DEBUG] Original Text:", repr(text_to_translate))  # Debug
+
+        if not text_to_translate:
+            self._display_text("⚠️ No text to translate.")
+            return
+
+        translated = self.translator.translate_text(text_to_translate, lang)
+        print("[DEBUG] Translated Text:", repr(translated))  # Debug
+
+        self._display_text(translated)
+
+
 
     def _display_text(self, text):
         self.textbox.delete("1.0", END)
