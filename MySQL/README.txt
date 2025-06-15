@@ -1,14 +1,11 @@
-ocr_translator_app/
+MySQL/
+│
 ├── main.py
-├── ui/
-│   └── app_ui.py
-├── core/
-│   ├── base_image_handler.py
-│   ├── image_handler.py
-│   ├── ocr_engine.py
-│   └── translator.py
-└── assets/
-    └── captured.jpg (ảnh sẽ lưu tạm tại đây)
+├── mydata.db
+└── database/
+    ├── models.py
+    └── exporter.py
+
 
 #Create evn:
 python -m venv .venv
