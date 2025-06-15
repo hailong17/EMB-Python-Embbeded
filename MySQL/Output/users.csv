@@ -1,5 +1,3 @@
-id,name,email
-1,Long,long@example.com
-2,Long,long@example.com
-3,Hai,longnh63@example.com
-5,Hai,longnh63@example.com
+id,name,email,phone
+1,Long,long@example.com,123456789
+3,Trang,tranglt23,123456
