@@ -21,3 +21,17 @@
 2025-06-15 10:56:46,352,INFO,Khởi tạo exporter cho bảng 'users'
 2025-06-15 10:56:46,357,INFO,Đã xuất bảng 'users' ra CSV: ./Output/users.csv
 2025-06-15 10:56:46,358,INFO,✅ Export hoàn tất.
+2025-06-15 21:51:31,592,INFO,Thêm user: Trang (tranglt23)
+2025-06-15 21:51:31,603,WARNING,Không tìm thấy user với email: an@example.com
+2025-06-15 21:51:31,624,INFO,Khởi tạo exporter cho bảng 'users'
+2025-06-15 21:51:31,737,INFO,Đã xuất bảng 'users' ra Excel: ./Output/users.xlsx
+2025-06-15 21:51:31,757,INFO,Khởi tạo exporter cho bảng 'users'
+2025-06-15 21:51:31,763,INFO,Đã xuất bảng 'users' ra CSV: ./Output/users.csv
+2025-06-15 21:51:31,764,INFO,✅ Export hoàn tất.
+2025-06-15 21:53:43,313,INFO,Thêm user: Trang (tranglt23)
+2025-06-15 21:53:43,317,WARNING,Không tìm thấy user với email: an@example.com
+2025-06-15 21:53:43,320,INFO,Khởi tạo exporter cho bảng 'users'
+2025-06-15 21:53:43,388,INFO,Đã xuất bảng 'users' ra Excel: ./Output/users.xlsx
+2025-06-15 21:53:43,390,INFO,Khởi tạo exporter cho bảng 'users'
+2025-06-15 21:53:43,393,INFO,Đã xuất bảng 'users' ra CSV: ./Output/users.csv
+2025-06-15 21:53:43,394,INFO,✅ Export hoàn tất.
